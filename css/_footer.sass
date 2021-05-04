@@ -1,0 +1,60 @@
+footer
+	background: #22223B
+	height: auto
+	color: #fff
+	.nav-footer
+		padding: 10px
+		+f-column-center()
+		ul
+			+f-row()
+			li
+				margin-right: 5px
+				a
+					text-decoration: none
+					font-size: 0.9rem
+					font-family: 'Nexa-2', sans-serif
+					color: #fff
+	.sub-footer
+		+f-row()
+		width: 100%
+		height: auto
+		background: #000
+		font-family: 'Nexa-2', sans-serif
+		font-size: 0.8rem
+		color: #C9ADA7
+		padding: 5px
+		span
+			margin-right: auto
+		blockquote
+			margin: 0 !important
+
+@media screen and (max-width: 480px)
+	footer
+		background: #22223B
+		height: auto
+		color: #fff
+		.nav-footer
+			padding: 10px
+			+f-column-center()
+			ul
+				+f-row()
+				li
+					margin-right: 5px
+					a
+						text-decoration: none
+						font-size: 3.2vw
+						font-family: 'Nexa-2', sans-serif
+						color: #fff
+		.sub-footer
+			+f-row()
+			width: 100%
+			height: auto
+			background: #000
+			font-family: 'Nexa-2', sans-serif
+			font-size: 2vw
+			color: #C9ADA7
+			padding: 5px
+			span
+				margin-right: auto
+			blockquote
+				margin: 0 !important

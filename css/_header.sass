@@ -1,0 +1,86 @@
+header
+	width: 100vw
+	height: auto
+	+f-row-end()
+	position: fixed
+	background: transparent
+	z-index: 2
+	padding: 10px
+	.container-header
+		+f-row()
+		width: 100vw
+		img
+			margin-right: auto
+			z-index: 2
+		nav
+			margin-right: 20px
+			transition: all ease .3s
+			ul
+				+f-row-end()
+				li
+					margin-right: 5px
+					a
+						text-decoration: none
+						color: #FEFAE0
+						transition: all ease .8s
+						&:hover
+							color: #4A4E69
+		.toggle-dropdown
+			width: 30px
+			height: 30px
+			position: absolute
+			top: 10px
+			right: 20px
+			display: none
+			z-index: 1
+			cursor: pointer
+			color: #9A8C98
+			i
+				width: 30px
+
+
+
+.no-active
+	display: none
+
+.active-nav
+	clip-path: circle(79% at 100% 0%) !important
+
+
+
+
+
+@media screen and (max-width: 480px)
+	header	
+		.container-header
+			img
+				margin-left: 20px
+			nav
+				width: 100%
+				height: calc(100vh*0.90)
+				position: absolute
+				top: 0
+				right: 0
+				z-index: 1
+				background: #22223B
+				color: #F2E9E4
+				clip-path: circle(0% at 100% 0%)
+				margin-right: 0px
+				+f-cl-start()
+				ul
+					+f-column-center()
+					margin: 10px
+					li
+						margin: 5px
+						a
+							text-decoration: none
+							color: #F2E9E4
+			.toggle-dropdown
+				display: block
+
+
+
+
+
+
+/* clip-path: circle(76.9% at 85% 14%); */							
