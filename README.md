@@ -7,8 +7,10 @@ It's me again.
 
 It is a basic website  for portfolios, show prooducts or just infomartion.
 
-LINK: https://alanvera48.github.io/template-1/
+I will show the people how use it and where change the picture o titles.
 
-I made for fiver,
+And the most important thing is RESPONSIVE!!
+
+LINK: https://alanvera48.github.io/template-1/
 
 Best Regards,
